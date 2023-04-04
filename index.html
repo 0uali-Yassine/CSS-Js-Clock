@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>CSS+JS Clock</title>
+</head>
+<body class="bg-sky-500" >
+    <h1 class="text-center m-auto font-medium text-[4rem]">Clock</h1>
+    <div class="clock relative w-[300px] h-[300px] mx-auto my-[40px]  rounded-[50%] border-[20px]">
+        <div class="center bg-black w-[30px] h-[30px] rounded-[50%] absolute z-10 top-[46%] left-[49%] translate-x-[-38%]"></div>
+        <div class="hoursHand w-[50%] h-[7px] bg-black absolute top-[50%] rotate-[90deg] origin-[100%]"></div>
+        <div class="minutesHand w-[50%] h-[7px] bg-black absolute top-[50%] rotate-[90deg] origin-[100%]"></div>
+        <div class="secondsHand w-[49%] h-[5px] bg-red-600 absolute top-[50%] rotate-[90deg] origin-[100%]"></div>
+    </div>
+    <div class="dat w-[300px] h-[200px] m-auto text-[2rem] font-medium text-center" ></div>
+    <script src="index.js"></script>
+</body>
+</html>
